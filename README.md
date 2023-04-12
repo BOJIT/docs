@@ -34,3 +34,10 @@ TODO
 - Interactive editor: use FileReader API
 - Interactive editor: add widgets
 - Interactive editor: GitHub OAuth
+
+## Projects used
+
+- [Doxygen](https://www.doxygen.nl/)
+- [moxygen](https://github.com/sourcey/moxygen)
+- [KitDocs](https://github.com/svelteness/kit-docs)
+- [Sveltekit](https://kit.svelte.dev)

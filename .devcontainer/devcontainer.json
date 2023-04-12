@@ -1,0 +1,29 @@
+{
+    "name": "@bojit/docs",
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "cschlosser.doxdocgen",
+                "svelte.svelte-vscode"
+            ]
+            // "settings": {
+            //     "cmake.statusbar.advanced": {
+            //         "debug": {
+            //             "visibility": "hidden"
+            //         },
+            //         "launch": {
+            //             "visibility": "hidden"
+            //         },
+            //         "build": {
+            //             "visibility": "default"
+            //         },
+            //         "buildTarget": {
+            //             "visibility": "hidden"
+            //         }
+            //     }
+            // }
+        }
+    }
+}
