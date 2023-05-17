@@ -4,7 +4,10 @@ import kitDocs from '@svelteness/kit-docs/node';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-  plugins: [icons({ compiler: 'svelte' }), kitDocs(), sveltekit()],
+    plugins: [icons({ compiler: 'svelte' }), kitDocs(), sveltekit()],
+    resolve: {
+        preserveSymlinks: true,
+    }
 };
 
 export default config;
