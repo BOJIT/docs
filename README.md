@@ -42,3 +42,14 @@ TODO
 - [moxygen](https://github.com/sourcey/moxygen)
 - [KitDocs](https://github.com/svelteness/kit-docs)
 - [Sveltekit](https://kit.svelte.dev)
+
+---
+
+## Development
+
+```bash
+cd docs
+npm install
+npm link ../app
+npm run dev
+```
