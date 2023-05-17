@@ -27,7 +27,8 @@ type Font = {
 /*------------------------------- Primary Type -------------------------------*/
 
 type Config = {
-    root: string,   // Path to root of Docs directory
+    root: string,   // Path to root of Docs directory,
+    packages?: string[], // Perhaps handle through package.json
     theme?: {
         colours? : {
             primary: Color,

@@ -14,3 +14,10 @@ for each code root
 endfor
 
 build the docs site to a static directory
+
+
+ideally, in the provided Docker image:
+
+`npm run build` creates a static directory
+
+`npm run dev` allows markdown (not C++) to be edited with the dev server

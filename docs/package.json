@@ -1,0 +1,11 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "author": "BOJIT",
+    "private": true,
+    "scripts": {
+        "dev": "npm run dev --prefix node_modules/@bojit/docs",
+        "build": "npm run build --prefix node_modules/@bojit/docs"
+    },
+    "type": "module"
+}

@@ -28,6 +28,7 @@ TODO
     - use `README.md` as cover sheet
     - Doxygen/moxygen config options
 - build as action from another repository - NPM install in docker image.
+- FlexSearch
 
 ### Milestone 3
 
